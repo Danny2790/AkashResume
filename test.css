@@ -1,0 +1,19 @@
+.movie-List {
+	display: inline-block;
+	padding: 10 10 10 10;
+	text-align: center;
+}
+
+.magazine {
+    -moz-column-count:3; /* Firefox */
+    -webkit-column-count:3; /* Safari and Chrome */
+    column-count:3;
+
+    -moz-column-gap:40px; /* Firefox */
+    -webkit-column-gap:40px; /* Safari and Chrome */
+    column-gap:20px;
+
+    -moz-column-rule:4px outset #ff00ff; /* Firefox */
+    -webkit-column-rule:4px outset #ff00ff; /* Safari and Chrome */
+    column-rule:6px outset #ff00ff;
+}
